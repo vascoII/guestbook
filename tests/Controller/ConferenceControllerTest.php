@@ -4,6 +4,9 @@ namespace App\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
+use App\Repository\CommentRepository;
+use Doctrine\ORM\EntityManagerInterface;
+
 class ConferenceControllerTest extends WebTestCase
 {
     public function testIndex()
